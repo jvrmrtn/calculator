@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <title>CALCULADORA</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../00.CALCULADORA/assets/images/favicon.calculator.png">
+        <link rel="stylesheet" href="../../CSS/03/normalize.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <body>
+        <div class="calculator">
+            <div class="display" id="display">0</div>
+            <div class="pad" id="pad">
+                <div class="pad__number pad__number--9" data-type="number">9</div>
+                <div class="pad__number pad__number--8" data-type="number">8</div>
+                <div class="pad__number pad__number--7" data-type="number">7</div>
+                <div class="pad__number pad__number--6" data-type="number">6</div>
+                <div class="pad__number pad__number--5" data-type="number">5</div>
+                <div class="pad__number pad__number--4" data-type="number">4</div>
+                <div class="pad__number pad__number--3" data-type="number">3</div>
+                <div class="pad__number pad__number--2" data-type="number">2</div>
+                <div class="pad__number pad__number--1" data-type="number">1</div>
+                <div class="pad__number pad__number--0" data-type="number">0</div>
+
+                <div class="pad__symbol pad__symbol--sum" data-type="operator">+</div>
+                <div class="pad__symbol pad__symbol--res" data-type="operator">-</div>
+                <div class="pad__symbol pad__symbol--mul" data-type="operator">×</div>
+                <div class="pad__symbol pad__symbol--div" data-type="operator">÷</div>
+
+                <div class="pad__symbol pad__symbol--clear" data-type="clear">C</div>
+                <div class="pad__symbol pad__symbol--equal" data-type="equal">=</div>
+                <div class="pad__symbol pad__symbol--decimal" data-type="decimal">.</div>
+            </div>
+        </div>
+
+        <script src="scriptsCalc.js"></script>
+    </body>
+</html>
